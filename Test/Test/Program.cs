@@ -21,6 +21,7 @@ namespace Test
 				return;
 			else
 			{
+
 				for (int i = 0; i <= ext.Length; i+=1)
 				
 				{
@@ -38,7 +39,7 @@ namespace Test
 			var nodes =	ht.DocumentNode.SelectNodes("//img");
 			foreach (var a in nodes) 
 			{
-				if (a.Attributes["src"].Value.EndsWith(ext)) 
+				if (a.Attributes["src"].Value.EndsWith(ext) && a.Attributes["src"].Value.Contains("http")) 
 				{
 					r += 1;
 					string p = filePath + r + ext;

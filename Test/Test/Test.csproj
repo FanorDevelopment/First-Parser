@@ -33,7 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="HtmlAgilityPack">
-      <HintPath>..\..\Загрузки\HtmlAgilityPack.dll</HintPath>
+      <HintPath>..\..\..\..\Загрузки\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
   </ItemGroup>

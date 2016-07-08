@@ -1,0 +1,2 @@
+/root/parserC/First-Parser/Test/Test/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/root/parserC/First-Parser/Test/Test/bin/Debug/HtmlAgilityPack.dll
